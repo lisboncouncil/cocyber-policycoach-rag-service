@@ -23,7 +23,7 @@ from interview import (
     extract_choices, ChoicesStreamFilter
 )
 
-SERVER_VERSION = "1.3.5"
+SERVER_VERSION = "1.3.7"
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes

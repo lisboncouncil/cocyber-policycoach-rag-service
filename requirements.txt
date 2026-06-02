@@ -1,0 +1,10 @@
+chromadb
+openai
+pypdf
+python-docx
+tiktoken
+flask
+flask-cors
+python-dotenv
+nltk
+requests

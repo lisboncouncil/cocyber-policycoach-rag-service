@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Environment
+.env
+
+# Data & state
+chroma/
+!chroma/.gitkeep
+conversation_state.db
+data/
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Agents
+CLAUDE.md
+.claude/
+
+# Secrets & crypto material (never publish)
+secrets/
+*.key
+*.pem
+*.pfx
+*.p12
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Archives & extra local data
+*.zip
+data-*/
+dumb-data/
